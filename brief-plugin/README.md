@@ -1,6 +1,6 @@
 ## Brief Plugin
 
-此项目是百度知道安卓NA团队为了压缩项目图片体积减少包大小所制作的idea plugin, Android studio也可以使用。
+此项目是为了压缩项目图片体积减少包大小所制作的idea plugin, Android studio也可以使用。
 
 此项目引用了开源项目libimagequant
 
@@ -15,5 +15,5 @@
 有不同需求的同学可以直接用源码修改，源码非常简单。
 
 ## Support
-直接Hi 知识搜索部 薛维宁
+weiningxue@gmail.com
 
