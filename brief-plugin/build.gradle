@@ -1,0 +1,38 @@
+//buildscript {
+//    repositories {
+//        maven {
+//            url "https://plugins.gradle.org/m2/"
+//        }
+//        maven {
+//            url 'http://dl.bintray.com/jetbrains/intellij-plugin-service'
+//        }
+//
+//    }
+//    dependencies {
+//        classpath "gradle.plugin.org.jetbrains:gradle-intellij-plugin:0.2.17"
+//    }
+//}
+//
+//apply plugin: 'org.jetbrains.intellij'
+
+//allprojects {
+//    repositories {
+//        jcenter()
+//    }
+//}
+
+//dependencies {
+//    compile 'com.tinify:tinify:latest.release'
+//}
+plugins {
+    id "org.jetbrains.intellij" version "0.2.17"
+}
+
+intellij {
+    pluginName 'Brief Plugin'
+}
+
+patchPluginXml {
+    sinceBuild "93"
+}
+
