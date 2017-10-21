@@ -29,6 +29,7 @@
         <group id="com.weining.ks.briefplugin" text="BriefPlugin" description="BriefPlugin menu">
             <add-to-group group-id="MainMenu" anchor="last"/>
             <action id="com.weining.ks.briefplugin.CompressPngImagesAction" class="com.weining.ks.briefplugin.CompressPngImagesAction" text="Compress Png Image" description="Select Images to Compress"/>
+            <action id="com.weining.ks.briefplugin.RemoveUnusedResourceAction" class="com.weining.ks.briefplugin.RemoveUnusedResourceAction" text="Remove Unused Resource" description="Remove Unused Resource"/>
         </group>
     </actions>
 
